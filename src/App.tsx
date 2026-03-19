@@ -334,6 +334,14 @@ export default function App() {
           </div>
         </FadeIn>
       </section>
+      <div className="mt-12 flex justify-center">
+        <button 
+          onClick={() => scrollTo('contact-form')}
+          className="bg-blue-600 text-white hover:bg-blue-700 px-10 py-5 rounded-full font-black text-xl transition-all shadow-2xl hover:scale-105 flex items-center justify-center gap-3 mx-auto"
+        >
+          지금 바로 지원하기 <ArrowRight size={24} />
+        </button>
+      </div>
 
       {/* Target Audience */}
       <section className="py-24 px-6 bg-slate-50 relative overflow-hidden">
@@ -523,6 +531,14 @@ export default function App() {
           </div>
         </FadeIn>
       </section>
+      <div className="mt-12 flex justify-center">
+        <button 
+          onClick={() => scrollTo('contact-form')}
+          className="bg-blue-600 text-white hover:bg-blue-700 px-10 py-5 rounded-full font-black text-xl transition-all shadow-2xl hover:scale-105 flex items-center justify-center gap-3 mx-auto"
+        >
+          지금 바로 지원하기 <ArrowRight size={24} />
+        </button>
+      </div>
 
       {/* Real-World Projects */}
       <section id="projects" className="py-24 px-6 bg-slate-50">
@@ -613,6 +629,14 @@ export default function App() {
           </div>
         </FadeIn>
       </section>
+      <div className="mt-12 flex justify-center">
+        <button 
+          onClick={() => scrollTo('contact-form')}
+          className="bg-blue-600 text-white hover:bg-blue-700 px-10 py-5 rounded-full font-black text-xl transition-all shadow-2xl hover:scale-105 flex items-center justify-center gap-3 mx-auto"
+        >
+          지금 바로 지원하기 <ArrowRight size={24} />
+        </button>
+      </div>
 
       {/* Career Support */}
       <section id="career" className="py-24 px-6 bg-slate-900 text-white">
@@ -813,14 +837,13 @@ export default function App() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-bold text-slate-700 mb-1 md:mb-1.5">문의내용</label>
+                  <label htmlFor="message" className="block text-sm font-bold text-slate-700 mb-1 md:mb-1.5">문의내용 (선택)</label>
                   <textarea 
                     id="message" 
                     name="message" 
                     rows={2} 
-                    required
                     className="w-full px-4 py-2 md:py-2.5 rounded-xl border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all bg-slate-50 focus:bg-white resize-none"
-                    placeholder="궁금하신 내용을 상세히 적어주세요."
+                    placeholder="궁금하신 내용을 적어주세요. (선택사항)"
                   ></textarea>
                 </div>
 
