@@ -851,6 +851,19 @@ export default function App() {
                   >
                     <input type="hidden" name="_form_id" value="8c00af638f5ad3f51b55767415e89087" />
                     <input type="hidden" name="_subject" value="베스핀글로벌 부트캠프 상담 신청" />
+
+                    <div>
+                      <label htmlFor="course" className="block text-sm font-bold text-slate-700 mb-1 md:mb-1.5">과정명</label>
+                      <input 
+                        type="text" 
+                        id="course" 
+                        name="과정명" 
+                        defaultValue="베스핀글로벌-멀티클라우드엔지니어" 
+                        readOnly
+                        className="w-full px-4 py-2 md:py-2.5 rounded-xl border border-slate-200 bg-slate-100/90 font-semibold text-slate-800 outline-none transition-all cursor-default"
+                      />
+                    </div>
+
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                       <div>
                         <label htmlFor="name" className="block text-sm font-bold text-slate-700 mb-1 md:mb-1.5">이름</label>
